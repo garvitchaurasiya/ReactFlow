@@ -7,12 +7,6 @@ function CheckNode({ id, data }) {
   const updateNumber = useStore((state) => state.updateNumber);
   const resetNode = useStore((state) => state.resetNode);
   const onChange = (evt)=>{
-    // if(evt.target.value === ''){
-    //   resetNode();
-    //   console.log(typeof evt.target.value, evt.target.value==='');
-      
-    //   return;
-    // }
     updateNumber(evt.target.value)
   }
   return (

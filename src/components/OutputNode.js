@@ -1,5 +1,4 @@
 import React from 'react';
-import useStore from './store';
 import { Handle, Position } from 'reactflow';
 
 function OutputNode({ id, data }) {
